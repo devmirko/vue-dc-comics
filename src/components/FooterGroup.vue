@@ -28,7 +28,89 @@
         </div>
     </section>
     <section id="main_footer">
+        <div class="container">
+            <div id="nav_footer">
+                <!-- menu footer -->
+                <div class="col_1">
+                    <h3>DC Comics</h3>
+                    <ul>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                    </ul>
+                    <h3>shop</h3>
+                    <ul>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                    </ul>
+                
+                </div>
+                <div class="col_2">
+                    <h3>DC Comics</h3>
+                    <ul>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col_3">
+                    <h3>shop</h3>
+                    <ul>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                        <li>
+                            <a href="">comics</a>
+                        </li>
+                    </ul>
 
+                </div>
+                     
+            </div>
+            <div id="image_background">
+                <img src="../assets/dc-logo-bg.png" alt="">
+            </div>
+        </div>
     </section>
     <section id="bottom_footer">
 
@@ -79,6 +161,53 @@ export default {
             }
             
         }
+    }
+}
+#main_footer{
+    min-height: 250px;
+    background-image: url(../assets/footer-bg.jpg);
+
+    .container{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+
+        #nav_footer{
+            width: 50%;
+            // menu footer
+            display: flex;
+
+            .col_1 , .col_2 , .col_3 {
+
+                margin-right: 20px;
+
+                h3{
+                    color: white;
+                }
+                ul{
+                    list-style-type: none;
+
+                    a{
+                        text-decoration: none;
+                        color: #959595;
+                    }
+                }
+
+            }
+
+         
+
+        }
+
+        #image_background{
+            width: 50%;
+
+            img{
+
+            }
+        }
+
+
     }
 }
 
