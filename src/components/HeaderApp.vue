@@ -7,7 +7,11 @@
       </a>
       <!-- contenitore menu -->
       <ul>
-          <li>
+          <li v-for="(link, i) in links" :key="i" >
+              <a :href="link.url"
+              >{{link.text}}</a>
+          </li>
+          <!-- <li>
               <a href="">characters</a>
           </li>
           <li>
@@ -33,10 +37,7 @@
           </li>
           <li>
               <a href="">characters</a>
-          </li>
-          <li>
-              <a href="">characters</a>
-          </li>
+          </li> -->
 
       </ul>
       
@@ -47,6 +48,64 @@
 <script>
 export default {
   name: 'HeaderApp',
+  data(){
+      return{
+          links : [
+              {
+                  text : "CHARACTERS",
+                  url : "#",
+                  current: false
+              },
+               {
+                  text : "COMICS",
+                  url : "#",
+                  current: false
+              },
+               {
+                  text : "MOVIES",
+                  url : "#",
+                  current: false
+              },
+               {
+                  text : "TV",
+                  url : "#",
+                  current: false
+              },
+               {
+                  text : "GAMES",
+                  url : "#",
+                  current: false
+              },
+               {
+                  text : "COLLECTIBLES",
+                  url : "#",
+                  current: false
+              },
+               {
+                  text : "VIDEOS",
+                  url : "#",
+                  current: false
+              },
+               {
+                  text : "FANS",
+                  url : "#",
+                  current: false
+              },
+               {
+                  text : "NEWS",
+                  url : "#",
+                  current: false
+              },
+               {
+                  text : "SHOP",
+                  url : "#",
+                  current: false
+              },
+
+              
+          ],
+      }
+  }
 
 }
 </script>

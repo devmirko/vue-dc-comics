@@ -113,6 +113,40 @@
         </div>
     </section>
     <section id="bottom_footer">
+        <div class="container">
+            <a href="">SIGN-UP NOW</a>
+            <ul>
+                <li>
+                    <span>follow us</span>
+                </li>
+                <li>
+                    <a href="">
+                        <i></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
 
     </section>
 
@@ -208,6 +242,28 @@ export default {
         }
 
 
+    }
+}
+#bottom_footer{
+    height: 100px;
+    background-color: #222222;
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+
+       
+    }
+
+    ul{
+        display: flex;
+
+        li{
+            list-style-type: none;
+            margin-right: 20px;
+        }
     }
 }
 
