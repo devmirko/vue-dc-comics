@@ -11,33 +11,6 @@
               <a :href="link.url"
               >{{link.text}}</a>
           </li>
-          <!-- <li>
-              <a href="">characters</a>
-          </li>
-          <li>
-              <a href="">characters</a>
-          </li>
-          <li>
-              <a href="">characters</a>
-          </li>
-          <li>
-              <a href="">characters</a>
-          </li>
-          <li>
-              <a href="">characters</a>
-          </li>
-          <li>
-              <a href="">characters</a>
-          </li>
-          <li>
-              <a href="">characters</a>
-          </li>
-          <li>
-              <a href="">characters</a>
-          </li>
-          <li>
-              <a href="">characters</a>
-          </li> -->
 
       </ul>
       
@@ -118,9 +91,11 @@ header{
 
     .container{
         width: 60%;
+        height: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         ul{
             display: flex;

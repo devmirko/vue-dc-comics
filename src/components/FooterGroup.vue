@@ -31,7 +31,8 @@
         <div class="container">
             <div id="nav_footer">
                 <!-- menu footer -->
-                <div class="col_1">
+                <div class="row">
+                    <div class="col_1">
                     <h3>DC Comics</h3>
                     <ul>
                         <li>
@@ -105,6 +106,7 @@
                     </ul>
 
                 </div>
+                </div>
                      
             </div>
             <div id="image_background">
@@ -121,27 +123,27 @@
                 </li>
                 <li>
                     <a href="">
-                        <i></i>
+                        <i class="fa-brands fa-facebook-f"></i>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i></i>
+                        <i class="fa-brands fa-twitter"></i>>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i></i>
+                        <i class="fa-brands fa-youtube"></i>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i></i>
+                        <i class="fa-solid fa-location-dot"></i>
                     </a>
                 </li>
             </ul>
@@ -164,7 +166,9 @@ export default {
 <style scoped lang="scss">
 #head_footer{
     height: 115px;
-    background-color: #0C7CEC;
+    background-color: #0c7cec;
+    position: relative;
+    z-index: 10;
 
     .container{
         width: 60%;
@@ -198,25 +202,33 @@ export default {
     }
 }
 #main_footer{
-    min-height: 250px;
+    height: 350px;
     background-image: url(../assets/footer-bg.jpg);
+    
 
     .container{
         width: 60%;
+        height: 100%;
         margin: 0 auto;
         display: flex;
 
         #nav_footer{
             width: 50%;
+            height: 100%;
             // menu footer
             display: flex;
+            align-items: center;
 
-            .col_1 , .col_2 , .col_3 {
+            .row{
+                display: flex;
+
+                .col_1 , .col_2 , .col_3 {
 
                 margin-right: 20px;
 
                 h3{
                     color: white;
+                    margin-top: 10px;
                 }
                 ul{
                     list-style-type: none;
@@ -224,10 +236,16 @@ export default {
                     a{
                         text-decoration: none;
                         color: #959595;
+
                     }
                 }
 
             }
+            }
+
+            
+
+            
 
          
 
@@ -235,9 +253,18 @@ export default {
 
         #image_background{
             width: 50%;
+            position: relative;
+            
 
             img{
-
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto auto;
+            position: absolute;
+           
+ 
             }
         }
 
@@ -245,26 +272,43 @@ export default {
     }
 }
 #bottom_footer{
-    height: 100px;
+    height: 110px;
     background-color: #222222;
+    position: relative;
+    
 
     .container{
-        width: 100%;
+        width: 60%;
         margin: 0 auto;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        a{
+            text-decoration: none;
+            color: white;
+            border: 1px solid #0C7CEC;
+            padding: 10px;
+        }
+        ul{
+        display: flex;
+        width: 200px;
+
+            li{
+                list-style-type: none;
+                margin-right: 20px;
+
+              
+            }
+    }
+
+    
 
        
     }
 
-    ul{
-        display: flex;
-
-        li{
-            list-style-type: none;
-            margin-right: 20px;
-        }
-    }
+    
 }
 
 </style>
