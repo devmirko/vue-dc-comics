@@ -121,14 +121,19 @@ export default {
 }
 
 #card_container{
-    min-height: 500px;
+    height: 500px;
     background-color: #1C1C1C;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
     .container{
         width: 60%;
-        margin: 0 auto;
         display: flex;
-    }
+        flex-wrap: wrap;
+        justify-content: center;
+     
 }
 
 </style>

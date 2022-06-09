@@ -27,22 +27,23 @@ export default {
 <style scoped lang="scss">
 .card{
     flex-basis: 15%;
-    min-height: 400px;
+    margin-left: 10px;
+    height: 200px;
 
     .box_image{
         width: 100%;
-        height: 70%;
+        height: 80%;
 
            img{
-               max-width: 100%;
-               max-height: 100%;
+               width: 100%;
+               height: 100%;
            }
          
     }
 
     .box_title{
         width: 100%;
-        height: 30%;
+        height: 20%;
     }
 
 
