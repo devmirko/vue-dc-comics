@@ -123,12 +123,12 @@
                 </li>
                 <li>
                     <a href="">
-                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-facebook"></i>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i class="fa-brands fa-twitter"></i>>
+                        <i class="fa-brands fa-twitter"></i>
                     </a>
                 </li>
                 <li>
@@ -301,7 +301,7 @@ export default {
 
               
             }
-    }
+        }
 
     
 
