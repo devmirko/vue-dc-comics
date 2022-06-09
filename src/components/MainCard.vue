@@ -3,6 +3,9 @@
     <section id="hero">
         <!-- immgaine hero -->
     </section>
+    <section id="series">
+        <div id="current">CURRENT SERIES</div>
+    </section>
     <section id="card_container">
         <div class="container">
             <CardItem v-for="(card, i ) in cards" :key="i"
@@ -10,6 +13,9 @@
             :title = "card.series"/>
 
         </div>
+    </section>
+    <section id="row_more">
+        <div id="read_more">READ MORE</div>
     </section>
 </main>
 
@@ -111,7 +117,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-#hero{
+main{
+    background-color: #1C1C1C;
+    padding-bottom: 20px;
+
+    #hero{
     width: 100%;
     height: 350px;
     background-image: url(../assets/jumbotron.jpg);
@@ -119,21 +129,66 @@ export default {
     background-size: cover;
     
 }
+#series{
+    width: 60%;
+    margin: 0 auto;
+    height: 50px;
+    position: relative;
+
+    #current{
+        width: 200px;
+        height: 50px;
+        background-color: #0C7CEC;
+        line-height: 50px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        bottom: 25px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
 
 #card_container{
     height: 500px;
-    background-color: #1C1C1C;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-    .container{
+
+
+       .container{
         width: 60%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
      
+}
+
+    
+}
+
+#row_more{
+    width: 60%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+    #read_more{
+        width: 200px;
+        height: 50px;
+        background-color: #0C7CEC;
+        line-height: 50px;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+       
+
+    }
+    
+}
+    
 }
 
 </style>

@@ -44,6 +44,11 @@ export default {
     .box_title{
         width: 100%;
         height: 20%;
+        font-size: 16px;
+        color: white;
+        font-weight: 400;
+        margin-top: 10px;
+        
     }
 
 
