@@ -99,20 +99,26 @@ header{
 
         ul{
             display: flex;
+            height: 100%;
             align-items: center;
             list-style-type: none;
 
             li{
                 padding: 0 10px;
+                height: 100%;
+                display: flex;
+                align-items: center;
                 
 
                 &:hover{
-                    border-bottom: 1px solid #0C7CEC;
+                    border-bottom: 5px solid #0C7CEC;
                 }
 
                 a{
                     text-decoration: none;
                     color: #464651;
+                    font-size: 18px;
+                    font-weight: 700;
 
                     &:hover{
                         color: #0C7CEC;

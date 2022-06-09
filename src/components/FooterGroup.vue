@@ -5,23 +5,23 @@
             <ul>
                 <li>
                     <img src="../assets/buy-comics-digital-comics.png" alt="">
-                    <span>Digital comics</span>
+                    <span>DIGITAL COMICS</span>
                 </li>
                 <li>
                     <img src="../assets/buy-comics-merchandise.png" alt="">
-                    <span>Digital comics</span>
+                    <span>DC MERCHAINDAISE</span>
                 </li>
                 <li>
                     <img src="../assets/buy-comics-subscriptions.png" alt="">
-                    <span>Digital comics</span>
+                    <span>SUBSCRIPTION</span>
                 </li>
                 <li>
                     <img src="../assets/buy-comics-shop-locator.png" alt="">
-                    <span>Digital comics</span>
+                    <span>COMIC SHOP LOCATOR</span>
                 </li>
                 <li>
                     <img src="../assets/buy-dc-power-visa.svg" alt="">
-                    <span>Digital comics</span>
+                    <span>DC POWER VISA</span>
                 </li>
 
             </ul>
@@ -33,75 +33,97 @@
                 <!-- menu footer -->
                 <div class="row">
                     <div class="col_1">
-                    <h3>DC Comics</h3>
+                    <h3>DC COMICS</h3>
                     <ul>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">CHARACTERS</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">COMICS</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">MOVIES</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">TV</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">GAMES</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">VIDEOS</a>
+                        </li>
+                        <li>
+                            <a href="">NEWS</a>
                         </li>
                     </ul>
-                    <h3>shop</h3>
+                    <h3>SHOP</h3>
                     <ul>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">shop DC</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">shop DC Collectibles</a>
                         </li>
-                        <li>
-                            <a href="">comics</a>
-                        </li>
+                       
                     </ul>
                 
                 </div>
                 <div class="col_2">
-                    <h3>DC Comics</h3>
+                    <h3>DC </h3>
                     <ul>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">Term of Use</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">Privacy policy</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">Ad Choise</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">Advertising</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">Jobs</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">Subscriptions</a>
+                        </li>
+                        <li>
+                            <a href="">Talent Workshop</a>
+                        </li>
+                         <li>
+                            <a href="">CPSPC certificates</a>
+                        </li>
+                         <li>
+                            <a href="">Ratings</a>
+                        </li>
+                        <li>
+                            <a href="">Shop Helps</a>
+                        </li>
+                         <li>
+                            <a href="">Contacs Us</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col_3">
-                    <h3>shop</h3>
+                    <h3>SITES</h3>
                     <ul>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">DC</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">MAD magazine</a>
                         </li>
                         <li>
-                            <a href="">comics</a>
+                            <a href="">DC kids</a>
+                        </li>
+                         <li>
+                            <a href="">DC Universe</a>
+                        </li>
+                        <li>
+                            <a href="">DC Power Visa</a>
                         </li>
                     </ul>
 
@@ -179,7 +201,8 @@ export default {
 
         ul{
             display: flex;
-            padding: 0;
+            width: 100%;
+            justify-content: space-between;
             
             
             
@@ -229,14 +252,19 @@ export default {
                 h3{
                     color: white;
                     margin-top: 10px;
+                    margin-bottom: 10px;
                 }
                 ul{
                     list-style-type: none;
 
-                    a{
+                    li{
+
+                        margin-bottom: 5px;
+                        a{
                         text-decoration: none;
                         color: #959595;
 
+                    }
                     }
                 }
 
@@ -290,6 +318,9 @@ export default {
             color: white;
             border: 1px solid #0C7CEC;
             padding: 10px;
+            font-size: 18px;
+            font-weight: 700;
+
         }
         ul{
         display: flex;
