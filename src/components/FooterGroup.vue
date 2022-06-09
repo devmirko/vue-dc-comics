@@ -145,27 +145,27 @@
                 </li>
                 <li>
                     <a href="">
-                        <i class="fa-brands fa-facebook"></i>
+                        
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i class="fa-brands fa-twitter"></i>
+                        
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i class="fa-brands fa-youtube"></i>
+                        
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i class="fa-brands fa-pinterest-p"></i>
+                        
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <i class="fa-solid fa-location-dot"></i>
+                        
                     </a>
                 </li>
             </ul>
