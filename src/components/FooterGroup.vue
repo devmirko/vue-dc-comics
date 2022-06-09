@@ -327,6 +327,7 @@ export default {
         width: 200px;
 
             li{
+                color: white;
                 list-style-type: none;
                 margin-right: 20px;
 
